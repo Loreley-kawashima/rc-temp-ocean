@@ -37,7 +37,7 @@ const Component = ({ menuIsOpen }) => {
           </li>
         ) : null}
         <li className="blank">
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="https://build-ocean.com" target="_blank" rel="noopener noreferrer">
             企業公式サイト
           </a>
         </li>

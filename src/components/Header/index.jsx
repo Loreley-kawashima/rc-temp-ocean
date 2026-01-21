@@ -84,7 +84,7 @@ const Component = () => {
                 </span>
               </Scroll>
               :
-              <Link to="/" target="_blank">
+              <Link to="https://build-ocean.com" target="_blank">
                 公式サイト
               </Link>
             }

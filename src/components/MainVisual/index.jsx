@@ -44,8 +44,7 @@ const Component = ({ siteTitle, media }) => {
 
         </div>
         <div className="mainTxt">
-          <h2>Catchphrase text</h2>
-          <p>テキストテキストテキストテキスト</p>
+          <h2>一つひとつの施工に、心を込めた満足を届ける。<br/>あなたの丁寧な仕事が、誰かの「理想の暮らし」に。</h2>
         </div>
       </div>
     </div>

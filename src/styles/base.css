@@ -14,7 +14,7 @@ Version: 1.0
 
 :root {
   --color-dark: #212836;
-  --color-main: #184C6C;
+  --color-main: #4ea0d3;
   --color-sub: #466F89;
   --color-small: #dd2200;
   --color-gray: #efefef;
@@ -1534,7 +1534,7 @@ a[href^="tel:"] {
 .indexPage .mainVisual .mainTxt h2 {
   margin-bottom: 24px;
   font-family: 'Oswald', sans-serif;
-  font-size: 6.4rem;
+  font-size: 4rem;
   color: #FFF;
 }
 

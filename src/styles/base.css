@@ -717,7 +717,7 @@ a[href^="tel:"] {
 ------------------------------------------------------------*/
 #gFooter {
   padding: 24px 0px;
-  background-color: #222;
+  background-color: var(--color-main);
 }
 
 #gFooter address {

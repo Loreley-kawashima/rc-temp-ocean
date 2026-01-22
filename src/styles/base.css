@@ -17,9 +17,9 @@ Version: 1.0
   --color-main: #4ea0d3;
   --color-sub: #1e2a32;
   --color-sub01: #f39b28;
-  --color-sub02: #f39b28;
+  --color-sub02: #bfe0f0;
   --color-small: #dd2200;
-  --color-gray: #efefef;
+  --color-gray: #e6f4fa;
 }
 
 .aligncenter {
@@ -996,7 +996,8 @@ a[href^="tel:"] {
 .headLine04 {
   margin-bottom: 17px;
   color: var(--color-main);
-  font-family: 'Oswald', sans-serif;
+  font-family:  "Yu Mincho", "游明朝", "游明朝体",
+               "Hiragino Mincho ProN", "Hiragino Mincho Pro";
   font-size: 10.4rem;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1535,7 +1536,7 @@ a[href^="tel:"] {
 
 .indexPage .mainVisual .mainTxt h2 {
   margin-bottom: 24px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Yu Mincho", "游明朝", "游明朝体", "Hiragino Mincho ProN", "Hiragino Mincho Pro";
   font-size: 4rem;
   color: #FFF;
 }
@@ -1783,7 +1784,7 @@ a[href^="tel:"] {
 
 .indexPage .jobSec {
   padding-bottom: 140px;
-  background: var(--color-main);
+  background: var(--color-gray);
 }
 
 .indexPage .jobSec .topBox {
@@ -1803,9 +1804,9 @@ a[href^="tel:"] {
   opacity: 0.2;
 }
 
-.indexPage .jobSec .topBox .headLine04 {
+/*.indexPage .jobSec .topBox .headLine04 {
   color: #fff;
-}
+}*/
 
 .indexPage .jobSec .topBox .txt {
   text-align: center;
@@ -1858,7 +1859,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .jobSec .innerBox .textBox .jobTagBox span {
-  background: var(--color-sub02);
+  background: var(--color-sub01);
   color: white;
   margin-right: 5px;
   padding: 3px 20px;
@@ -2448,7 +2449,8 @@ a[href^="tel:"] {
 
 .recruitPage .recruitSec .innerBox .textBox td span {
   display: inline-block;
-  color: var(--color-main);
+  color: #fff;
+  background-color: var(--color-main);
   border: 1px solid var(--color-main);
   padding: 0 20px;
 }
@@ -2468,7 +2470,7 @@ a[href^="tel:"] {
 }
 
 .recruitPage .pointSec .pointBox {
-  border: 1px solid #DBE1E7;
+  border: 1px solid #4ea0d3;
   background: #FFFFFF;
   padding: 50px;
   display: flex;
@@ -2705,7 +2707,7 @@ a[href^="tel:"] {
 
 .recruitPage .welfareSec ul>li figure {
   background: #FFFFFF;
-  border: 1px solid #DBE1E7;
+  border: 1px solid #4ea0d3;
   padding: 30px;
   text-align: center;
 }

@@ -245,7 +245,8 @@ body {
   line-height: 1.5;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
-  background-color: #FFF;
+  background: url(../images/common/back02.png) ;
+  background-repeat: repeat;
 }
 
 body.fixed {
@@ -1005,7 +1006,7 @@ a[href^="tel:"] {
 
 @media all and (max-width: 896px) {
   .headLine04 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
@@ -1051,7 +1052,7 @@ a[href^="tel:"] {
 ------------------------------------------------------------*/
 .comCompany {
   padding: 136px 0 140px;
-  background: #fff;
+  /*background: #fff;*/
 }
 
 .comCompany .headLine04 {
@@ -1074,7 +1075,7 @@ a[href^="tel:"] {
 .comCompany .textBox th,
 .comCompany .textBox td {
   padding: 20px 0;
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;*/
   text-align: left;
   vertical-align: middle;
   letter-spacing: 0.06em;
@@ -1318,7 +1319,7 @@ a[href^="tel:"] {
 }
 
 .comImgBox .textBox .subBox p {
-  font-size: 2rem;
+  /*font-size: 2rem;*/
   font-weight: 500;
   color: #222;
   line-height: 1.9;
@@ -1571,7 +1572,7 @@ a[href^="tel:"] {
   text-align: center;
 }
 
-.indexPage .interviewSec .topBox:before {
+/*.indexPage .interviewSec .topBox:before {
   position: absolute;
   content: "";
   width: 500px;
@@ -1580,7 +1581,7 @@ a[href^="tel:"] {
   right: 0px;
   background: var(--color-gray);
   clip-path: polygon(0 0, 25% 0, 55% 50%, 25% 100%, 45% 100%, 75% 50%, 45% 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
-}
+}*/
 
 .indexPage .interviewSec .topBox .txt {
   font-size: 2rem;
@@ -1715,7 +1716,7 @@ a[href^="tel:"] {
   position: relative;
 }
 
-.indexPage .aboutSec .topBox:before {
+/*.indexPage .aboutSec .topBox:before {
   position: absolute;
   content: "";
   width: 500px;
@@ -1724,7 +1725,7 @@ a[href^="tel:"] {
   left: 100px;
   background: var(--color-gray);
   clip-path: polygon(0 0, 25% 0, 55% 50%, 25% 100%, 45% 100%, 75% 50%, 45% 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
-}
+}*/
 
 .indexPage .aboutSec .topBox .headLine04 {
   margin-bottom: 0;
@@ -1740,7 +1741,7 @@ a[href^="tel:"] {
   z-index: 1;
 }
 
-.indexPage .aboutSec .businessBox:before {
+/*.indexPage .aboutSec .businessBox:before {
   position: absolute;
   content: "";
   width: 500px;
@@ -1752,7 +1753,7 @@ a[href^="tel:"] {
   opacity: 0.2;
   z-index: -1;
 }
-
+*/
 .indexPage .aboutSec .businessBox:after {
   position: absolute;
   content: "";
@@ -2051,9 +2052,9 @@ a[href^="tel:"] {
     padding: 57px 0 32px;
   }
 
-  .indexPage .interviewSec .topBox:before {
+  /*.indexPage .interviewSec .topBox:before {
     width: 250px;
-  }
+  }*/
 
   .indexPage .interviewSec .topBox .txt {
     font-size: 1.4rem;
@@ -2150,12 +2151,12 @@ a[href^="tel:"] {
     padding: 0;
   }
 
-  .indexPage .aboutSec .topBox:before {
+  /*.indexPage .aboutSec .topBox:before {
     width: 250px;
     height: 100px;
     top: -30px;
     left: 0;
-  }
+  }*/
 
   .indexPage .aboutSec .topBox .headLine04 {
     margin-bottom: 16px;
@@ -2168,10 +2169,10 @@ a[href^="tel:"] {
     background-size: cover;
   }
 
-  .indexPage .aboutSec .businessBox:before {
+  /*.indexPage .aboutSec .businessBox:before {
     width: 300px;
     height: 200px;
-  }
+  }*/
 
   .indexPage .aboutSec .businessBox .content {
     max-width: inherit;
@@ -2520,7 +2521,7 @@ a[href^="tel:"] {
   position: relative;
 }
 
-.recruitPage .interviewSec:before {
+/*.recruitPage .interviewSec:before {
   position: absolute;
   content: "";
   width: 500px;
@@ -2529,7 +2530,7 @@ a[href^="tel:"] {
   right: 0px;
   background: var(--color-gray);
   clip-path: polygon(0 0, 25% 0, 55% 50%, 25% 100%, 45% 100%, 75% 50%, 45% 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
-}
+}*/
 
 .recruitPage .interviewSec .topTxt {
   margin-bottom: 137px;
@@ -2862,7 +2863,7 @@ a[href^="tel:"] {
   position: relative;
 }
 
-.recruitPage .companySec:before {
+/*.recruitPage .companySec:before {
   position: absolute;
   content: "";
   width: 500px;
@@ -2872,7 +2873,7 @@ a[href^="tel:"] {
   background: var(--color-main);
   clip-path: polygon(0 0, 25% 0, 55% 50%, 25% 100%, 45% 100%, 75% 50%, 45% 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
   opacity: 0.2;
-}
+}*/
 
 .recruitPage .companySec .textBox:before {
   top: -132px;
@@ -3079,10 +3080,10 @@ a[href^="tel:"] {
     background-size: 123px auto;
   }
 
-  .recruitPage .interviewSec:before {
+  /*.recruitPage .interviewSec:before {
     width: 200px;
     height: 150px;
-  }
+  }*/
 
   .recruitPage .interviewSec .comImgBox:last-child {
     margin-bottom: 0;
@@ -3319,10 +3320,10 @@ a[href^="tel:"] {
     padding: 30px 0 55px;
   }
 
-  .recruitPage .companySec:before {
+ /* .recruitPage .companySec:before {
     width: 200px;
     height: 150px;
-  }
+  }*/
 
   .recruitPage .companySec .comImgBox {
     max-width: inherit;

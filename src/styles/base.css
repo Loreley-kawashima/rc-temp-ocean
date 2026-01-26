@@ -1510,6 +1510,17 @@ a[href^="tel:"] {
   object-fit: cover;
 }
 
+/*追加分*/
+
+.indexPage .mainVisual .mainImg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+/*ここまで*/
+
 @keyframes scaleIn {
   0% {
     opacity: 0;
